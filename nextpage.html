@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Coupé-Décalé Archive</title>
+<link rel="stylesheet" href="nextpage.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+<!-- IMAGE SECTION -->
+<div class="image-section">
+<img src="Untitled.png" alt="Coupé Décalé Title">
+</div>
+
+</div>
+
+<div class="video-slider" id="slider">
+
+<div class="video-item">
+<video src="video1.mp4" controls></video>
+<div class="caption">Meiway — Miss Lolo</div>
+</div>
+
+<div class="video-item">
+<video src="video2.mp4" controls></video>
+<div class="caption">Kaysha — Good Life</div>
+</div>
+
+<div class="video-item">
+<video src="video3.mp4" controls></video>
+<div class="caption">DJ Arsenal — Sheloubouka</div>
+</div>
+
+<div class="video-item">
+<video src="video4.mp4" controls></video>
+<div class="caption">Soum Bill — L’un Pour L’autre</div>
+</div>
+
+<div class="video-item">
+<video src="video5.mp4" controls></video>
+<div class="caption">Les Walleys — Sophie</div>
+</div>
+
+<div class="video-item">
+<video src="video6.mp4" controls></video>
+<div class="caption">Teeyah — Coupe-Décalé</div>
+</div>
+
+<div class="video-item">
+<video src="video7.mp4" controls></video>
+<div class="caption">Meiway — 200% Zoblazo</div>
+</div>
+
+<div class="video-item">
+<video src="video8.mp4" controls></video>
+<div class="caption">DJ Kedjevara — Tchoucou Tchoucou</div>
+</div>
+
+<div class="video-item">
+<video src="video9.mp4" controls></video>
+<div class="caption">Consty DJ — Glissement Yobi Yobi</div>
+</div>
+
+<div class="video-item">
+<video src="video10.mp4" controls></video>
+<div class="caption">Youles Inter — On Va Gagner</div>
+</div>
+
+<div class="video-item">
+<video src="video11.mp4" controls></video>
+<div class="caption">Erickson Le Zulu — Souzana</div>
+</div>
+
+<div class="video-item">
+<video src="video12.mp4" controls></video>
+<div class="caption">DJ Arafat — Abidjan</div>
+</div>
+
+<div class="video-item">
+<video src="video13.mp4" controls></video>
+<div class="caption">Ps-One — Konami</div>
+</div>
+
+<div class="video-item">
+<video src="video14.mp4" controls></video>
+<div class="caption">Seliko DJ — Kel We De Me Trafiqué</div>
+</div>
+
+<div class="video-item">
+<video src="video15.mp4" controls></video>
+<div class="caption">Boulevard DJ — Ça Va Me Dja</div>
+</div>
+
+<div class="video-item">
+<video src="video16.mp4" controls></video>
+<div class="caption">Bae — Vailla D</div>
+</div>
+
+<div class="video-item">
+<video src="video17.mp4" controls></video>
+<div class="caption">R9 Ronaldo — La Démarche De Marie Belle</div>
+</div>
+
+<div class="video-item">
+<video src="video18.mp4" controls></video>
+<div class="caption">Fugo 7 ft. Oxy Norgy — Bon Débarra</div>
+</div>
+
+<div class="video-item">
+<video src="video19.mp4" controls></video>
+<div class="caption">DJolo National — Yang System</div>
+</div>
+
+<div class="video-item">
+<video src="video20.mp4" controls></video>
+<div class="caption">Les Poussins Chocs — ASEC Kôtôkô</div>
+</div>
+
+<div class="video-item">
+<video src="video21.mp4" controls></video>
+<div class="caption">Alfred Kra — Libérer Mon Pays</div>
+</div>
+
+<div class="video-item">
+<video src="video22.mp4" controls></video>
+<div class="caption">Youle International — Tout Petit</div>
+</div>
+
+<div class="video-item">
+<video src="video23.mp4" controls></video>
+<div class="caption">Dj Caloudji — Sentiment Môkô</div>
+</div>
+
+<div class="video-item">
+<video src="video24.mp4" controls></video>
+<div class="caption">Les Garagistes — Kouyou</div>
+</div>
+
+<div class="video-item">
+<video src="video25.mp4" controls></video>
+<div class="caption">Joskar & Flamzy — Faroter</div>
+</div>
+
+</div>
+
+<!-- TOP SCROLL BAR -->
+<div class="top-box">
+<div class="scroll-text">
+Welcome to the Coupé-Décalé Archive. Coupé-décalé originated among the Ivorian diaspora in Paris and was popularized by the Jet Set collective led by Douk Saga.
+</div>
+</div>
+
+<!-- BOTTOM SCROLL BAR -->
+<div class="bottom-box">
+<div class="scroll-text">
+Coupé-décalé emerged as a dominant cultural force during the political and social unrest that followed the 2002 outbreak of the First Ivorian Civil War. Amid curfews and national division, the genre provided a form of escapism and expression for Ivorian youth, who gathered in maquis local bars) and nightclubs to dance and celebrate resilience. The Yopougon district, particularly Princess Street, became a hub for the movement, where DJs evolved from background figures into leading artists. Each song often introduced a new dance move or gesture that fueled the genre's popularity. The genre's second wave was led by artists such as DJ Arafat, who helped modernize and internationalize the genre with a more aggressive atalaku style and a digitally driven sound, ultimately becoming one of the genre's most influential figures.Other prominent artists include Serge Beynaud, Debordo Leekunfa, Mix Premier (DJ Mix), DJ Lewis, and others.
+</div>
+</div>
+
+<script>
+
+const slider = document.getElementById("slider")
+
+// vertical scroll → horizontal scroll
+slider.addEventListener("wheel", (e) => {
+
+if(Math.abs(e.deltaY) > Math.abs(e.deltaX)){
+
+e.preventDefault()
+
+slider.scrollLeft += e.deltaY
+
+}
+
+})
+
+</script>
+
+</body>
+</html>
